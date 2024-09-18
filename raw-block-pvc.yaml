@@ -2,7 +2,8 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: raw-block-pvc22
+  name: raw-block-pvc
+  namespace: ceph-csi-rbd
 spec:
   accessModes:
     - ReadWriteOnce
